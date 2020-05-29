@@ -1,0 +1,183 @@
+
+        .head{
+            height:fit-content;
+            width:100%;
+            margin-top:-8px;
+            background-color: black;
+            
+        }
+        .head h1{
+            color:white;
+            font-size:50px;
+            margin-top:0px;
+            margin-bottom:0px;
+            font-family: 'Raleway', sans-serif;
+        }
+            .nav{
+               
+                
+                background-color: rgba(255, 247, 247, 0.96);
+                width:0px;
+                height:100vh;
+                overflow:hidden;
+                top:0;
+                left:0;
+                z-index: 2;
+                position: fixed;
+                transition: 0.5s;
+            }
+            .nav .closebtn{
+                
+                margin-left: 200px;
+                top:0;
+                
+                
+            }
+            .body{
+                background-image: url('https://images.unsplash.com/photo-1590516529404-947b2354e584?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+                background-position: center;
+                background-size: cover;
+                margin-left: 0px;
+                margin-right: 0px;
+                height:720px;
+                width:100%;
+                padding-top: 0px;
+            }
+            .heade{
+                color:black;
+                margin-top:0px;
+                font-family: 'Cinzel', sans-serif;
+                font-size: 4.9vw;
+                padding-top: 120px;
+            }
+            .nav a{
+                color:black;
+                margin-left:0px;
+                font-size: 30px;
+                padding:  8px 9px 8px 31px;
+  text-decoration: none;
+  
+  color: black;
+  display: block;
+                
+            }
+            .des{
+                
+                margin-left: 23%;
+                width:55%;
+            }
+            .bodytwo{
+                height:900px;
+                width:100%;
+                background-color: white;
+                
+            }
+            .sub-h{
+                font-size: 1.7vw;
+                font-family: 'Cinzel', sans-serif;
+                
+                color:black;
+            }
+            
+            .bt1{
+                width:10%;
+                height:40px;;
+                margin: 1%;
+                text-align: center;
+                font-size: 22px;
+                border-radius: 10px;
+                border:2px #0027ff solid;
+            
+                
+                
+            }
+            .bt1:hover{
+                background-color: #faeb30;
+                color:white;
+            }
+            .hh{
+                color:white;
+                background-color: #2a2323;
+                padding-left: 4px;
+                padding-right: 4px;
+                margin-left: 3px;
+                border-radius: 5px;
+            position: static;
+            }
+            .pro{
+                width:90%;
+                height:590px;
+               margin-top: -35px;
+                border:2px black solid;
+                margin:2% auto;
+            }
+            .head2{
+                border:3px solid;
+                border-bottom: none;
+                border-left: none;
+                 border-right: none;
+                 border-top: none;
+                font-family: 'Cinzel', sans-serif; 
+           
+               
+            }
+            .bt{
+                margin-top: 90px;
+            }
+            @media all and (max-width:800px){
+                .body{
+                    height:fit-content;
+                    padding-top: 1px;
+                }
+                .heade{
+                    font-size: 7vw;
+                    padding-top:50px;
+                }
+                .sub-h{
+                    font-size: 3vw;
+                }
+                .des{
+                    width:91%;
+                    margin-left: 3%;
+                }
+                .hh{
+                    padding-top: 0px;
+                }
+                .bt1{
+                    width:110px;
+                    margin:5px;
+                    
+                }
+                .bt{
+                    margin-left:-9px;
+                }
+            }
+            @media all and (max-width:450px){
+                .body{
+                    height:fit-content;
+                    width:100%;
+                    margin-right:-23px;
+                }
+                .html{
+                    margin-right: -17px;
+                }
+                .heade{
+                    font-size: 2em;
+                }
+                .des{
+                    width:99%;
+                    margin-left:2px;
+                }
+                .sub-h{
+                    font-size: 1.1em;
+                }
+                .bt{
+                    margin-top: 50px;
+                }
+                .head2{
+                    text-align: center;
+                }
+            }
+            
+        
+        
