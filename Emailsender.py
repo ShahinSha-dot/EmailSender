@@ -1,7 +1,7 @@
 from tkinter import*
 import smtplib
-mailid="fredysomy@gmail.com"
-password="fredysomykainady"
+mailid="Yourmailid"
+password="Yourpassword"
 root=Tk()
 root.geometry("400x250")
 root.resizable(0,0)
