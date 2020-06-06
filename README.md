@@ -1,5 +1,5 @@
 # Email Sender
-# YoU enter your own password
+# you enter your own password
 <b>this application uses Smtplib and tkinter</b><br>
 this was created bt fredysomy
 <b>this is used to send simple email from desktop</b>
