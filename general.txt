@@ -1,2 +1,3 @@
+this python program uses smtplib and tkinter
 
         
